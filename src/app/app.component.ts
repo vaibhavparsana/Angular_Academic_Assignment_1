@@ -9,10 +9,10 @@ import { Parsanav } from "./parsanav"
 export class AppComponent {
   title = 'parsanavA3';
   bio:Parsanav ={
-    sid:991548013,
-    sname:"Vaibhav Parsana",
-    scampus:"Trafalgar",
-    slogin:"parsanav",
+    sid:0,
+    sname:"Name",
+    scampus:"Campus",
+    slogin:"LoginID",
     stitle:"Assignment#3"
 };
 }
