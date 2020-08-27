@@ -1,0 +1,13 @@
+<h2>Books List</h2>
+<ul id="myList">
+    <li *ngFor= "let cls of mybooks; let i=index" id="s{{i}}">
+        <div id="d{{i}}">
+            <strong> Book Name: </strong> {{cls.sBookName}} <br>
+            <strong> Author Name: </strong> {{cls.sAuthor}} <br>
+            <strong> Book Genre: </strong> {{cls.sBookGenre}} <br>
+            <strong> Year Published: </strong> {{cls.sYearPublished}} <br>
+        </div>
+        <br>
+    </li>
+</ul>
+

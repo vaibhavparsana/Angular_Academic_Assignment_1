@@ -1,0 +1,13 @@
+h2 {
+    text-align: center;
+}
+
+ul {
+    margin: auto;
+    background: white;
+    border: 0 none;
+    box-shadow: 0 0 15px 10px rgba(0, 0, 0, 0.4);
+    width: 800px;
+    padding: 5%;
+    box-sizing: border-box;
+}
